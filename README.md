@@ -35,9 +35,12 @@ We have made four categories of datasets, including *linear*, *rotating cake*, *
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/QQ%E5%9B%BE%E7%89%8720230105200626.png"/></div>  
 
 ### Linear
+In the dataset *Linear*, the decision boundary is a straight line. We simulate the change of the decision boundary through the rotation of the straight line. The user can freely select the rotation axis within the range of [-10, 10]×[-10, 10].
+- Example for the gradual drift:
+![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_cakerotation_noise_and_redunce.gif?raw=true)
-![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true)
+
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
