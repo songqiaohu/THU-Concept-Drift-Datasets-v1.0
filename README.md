@@ -30,6 +30,8 @@ X, Y = C.Nonlinear_Sudden_RollingTorus(plot=True, save=True)
 ``` 
 
 - If you want to modify the source code, you can download it and do it in *DataStreamGenerator.py*.
+## Dataset Introduction
+
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230105175725.jpg?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true)
