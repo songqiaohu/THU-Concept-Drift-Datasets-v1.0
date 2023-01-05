@@ -57,5 +57,7 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 ## Change Log
 ### v1.0(2023/1/2)
 
+## Contact us
+Welcome to discuss and put forward valuable suggestions. Email:songqiaohu0609@gmail.com
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
