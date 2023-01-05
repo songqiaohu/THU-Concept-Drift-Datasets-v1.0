@@ -54,7 +54,8 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 - Example for the gradual drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true"/></div>  
 
-
+## Change Log
+### v1.0(2023/1/2)
 
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
