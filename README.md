@@ -1,5 +1,4 @@
 # Concept Drift Datasets v1.0
- These are the concept drift datasets we made.
 ## Background
 Concept drift describes unforeseeable changes in the underlying distribution of streaming data over time[1]. Concept drift problem exists in many real-world situations, such as sensor drift and the change of operating mode. Detecting concept drift timely and accurately is of great significance for judging system state and providing decision suggestions. In order to better test and evaluate the performance of concept drift detection algorithm, we have made some datasets with known drift types and drift time points, hoping to help the development of concept drift detection.
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230105175725.jpg?raw=true)
