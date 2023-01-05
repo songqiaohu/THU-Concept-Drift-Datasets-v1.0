@@ -31,7 +31,7 @@ X, Y = C.Nonlinear_Sudden_RollingTorus(plot=True, save=True)
 
 - If you want to modify the source code, you can download it and do it in *DataStreamGenerator.py*.
 ## Dataset Introduction
-We have made four categories of datasets, including *linear*, *rotating cake*, *rotating chocolate* and *rolling torus*. All of them contain four types of drifts: *Abrupt*, *Sudden*, *Gradual* and *Recurrent*. See Figure 1 for a more detailed introduction.
+We have made four categories of datasets, including *linear*, *rotating cake*, *rotating chocolate* and *rolling torus*. All of them contain four types of drifts: *Abrupt*, *Sudden*, *Gradual* and *Recurrent*. See the picture below for a more detailed introduction.
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/QQ%E5%9B%BE%E7%89%8720230105200626.png"/></div>  
 
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true)
