@@ -18,7 +18,8 @@ X = data[:, 0 : 5]
 Y = data[:, 5] 
 ``` 
 
-- If you want to regenerate the dataset and import it directly, you can download *DataStreamGenerator.py* and put it under the file where your code is located, and then:
+- If you want to regenerate the dataset and import it directly, you can download *DataStreamGenerator.py* and put it under the file where your code is located, and then import the class.
+Example:
 
 ```
 from DataStreamGenerator import DataStreamGenerator
