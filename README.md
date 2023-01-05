@@ -18,6 +18,19 @@ X = data[:, 0 : 5]
 Y = data[:, 5] 
 ``` 
 
+- If you want to regenerate the dataset and import it directly, you can download *DataStreamGenerator.py* and put it under the file where your code is located, and then:
+
+```
+import pandas as pd
+
+data = pd.read_csv('xxxxxx/nonlinear_gradual_chocolaterotation_noise_and_redunce.csv')
+
+data = data.values 
+
+X = data[:, 0 : 5] 
+
+Y = data[:, 5] 
+``` 
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230105175725.jpg?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true)
