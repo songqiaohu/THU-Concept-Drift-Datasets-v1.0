@@ -4,7 +4,7 @@ Concept drift describes unforeseeable changes in the underlying distribution of 
 ## Usage
 - If you want to use the datasets in the project, you can download them directly and import them using the pandas library.  
 
- - Example:
+  - Example:
 
 
 ```
@@ -21,7 +21,7 @@ Y = data[:, 5]
 
 - If you want to regenerate the dataset and import it directly, you can download *DataStreamGenerator.py* and put it under the file where your code is located, and then import the class.  
 
- - Example:
+  - Example:
 
 ```
 from DataStreamGenerator import DataStreamGenerator
