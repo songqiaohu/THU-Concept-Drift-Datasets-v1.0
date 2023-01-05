@@ -39,6 +39,8 @@ In the dataset *Linear*, the decision boundary is a straight line. We simulate t
 - Example for the gradual drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true"/></div>  
 
+### CakeRotation
+In the dataset *CakeRotation*, samples with odd angle area belong to one class, while samples with even angle area belong to another class. We simulate conceptual drift by rotating the disk, and the range of the angle area will change during the rotation. 
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true)
 ![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_cakerotation_noise_and_redunce.gif?raw=true)
