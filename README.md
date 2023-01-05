@@ -49,9 +49,11 @@ In the dataset *ChocolateRotation*, samples with odd *x+y* area belong to one cl
 - Example for the gradual drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true"/></div>  
 
+### RollingTorus
+In the dataset *RollingTorus*, we set two torus of the same size close together, and the samples in different torus belong to different classes. We let the third torus roll over at a constant speed, and the samples overlapping the first two tori will become the opposite category. **If you need a dataset with unbalanced number of category samples, you can adjust the initial torus radius to achieve.**
+- Example for the gradual drift:
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true"/></div>  
 
-
-![image](https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true)
 
 
 
