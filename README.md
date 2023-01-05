@@ -5,6 +5,18 @@ Concept drift describes unforeseeable changes in the underlying distribution of 
 If you want to use the datasets in the project, you can download them directly and import them using the pandas library.
 Example:
 
+
+```
+import pandas as pd
+
+data = pd.read_csv('xxxxxx/nonlinear_gradual_chocolaterotation_noise_and_redunce.csv')
+
+data = data.values 
+
+X = data[:, 0 : 5] 
+
+Y = data[:, 5] 
+``` 
 '''
 import pandas as pd
 
