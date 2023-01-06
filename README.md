@@ -66,7 +66,7 @@ In the dataset *CakeRotation*, samples with odd angle area belong to one class, 
 ### ChocolateRotation
 In the dataset *ChocolateRotation*, samples with odd *x+y* area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the chocolate plate, and use the rotation matrix to calculate the coordinates of the samples in the new coordinate system and reclassify them. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis.**
 - Data distribution display:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 
 <img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_sudden_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 </div>  
