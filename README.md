@@ -36,17 +36,17 @@ We have made four categories of datasets, including *linear*, *rotating cake*, *
 
 ### Linear
 In the dataset *Linear*, the decision boundary is a straight line. We simulate the change of the decision boundary through the rotation of the straight line. The user can freely select the rotation axis within the range of [-10, 10]×[-10, 10].
-- Example for the gradual drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true"/></div>  
+- Data distribution display:
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 
-- Example for the sudden drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_sudden_rotation_noise_and_redunce.gif?raw=true"/></div>  
-
-- Example for the recurrent drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_recurrent_rotation_noise_and_redunce.gif?raw=true"/></div>  
-
-- Example for the abrupt drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true"/></div>  
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_sudden_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(a)Gradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)Sudden</p>
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_recurrent_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px" alt="Gradual"/>
+ 
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
 
 
 ### CakeRotation
