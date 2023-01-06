@@ -60,6 +60,6 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 ## About us
 - We are from the team of Professor He Xiao, Department of Automation, Tsinghua University.
 - This work was supported by the National Natural Science Foundation of China under grant 61733009, National Key Research and Development Program of China under grant 2022YFB25031103, and Huaneng Group Science and Technology Research Project.
-- Welcome to discuss and put forward valuable suggestions. Email: 1120193091@bit.edu.cn, liuzy21@mails.tsinghua.edu.cn .
+- Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, 1120193091@bit.edu.cn.
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
