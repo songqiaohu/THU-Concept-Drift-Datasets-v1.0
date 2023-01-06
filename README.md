@@ -38,12 +38,16 @@ We have made four categories of datasets, including *linear*, *rotating cake*, *
 In the dataset *Linear*, the decision boundary is a straight line. We simulate the change of the decision boundary through the rotation of the straight line. The user can freely select the rotation axis within the range of [-10, 10]×[-10, 10].
 - Example for the gradual drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true"/></div>  
+
 - Example for the sudden drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_sudden_rotation_noise_and_redunce.gif?raw=true"/></div>  
+
 - Example for the recurrent drift:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_recurrent_rotation_noise_and_redunce.gif?raw=true"/></div>  
+
 - Example for the abrupt drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_rotation_noise_and_redunce.gif?raw=true"/></div>  
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true"/></div>  
+
 
 ### CakeRotation
 In the dataset *CakeRotation*, samples with odd angle area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the disk, and the range of the angle area will change during the rotation. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis.**
