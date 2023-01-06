@@ -51,13 +51,31 @@ In the dataset *Linear*, the decision boundary is a straight line. We simulate t
 
 ### CakeRotation
 In the dataset *CakeRotation*, samples with odd angle area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the disk, and the range of the angle area will change during the rotation. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis.**
-- Example for the gradual drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_cakerotation_noise_and_redunce.gif?raw=true"/></div> 
+- Data distribution display:
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_cakerotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_sudden_cakerotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(a)Gradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)Sudden</p>
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_recurrent_cakerotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px" alt="Gradual"/>
+ 
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_abrupt_cakerotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
 
 ### ChocolateRotation
 In the dataset *ChocolateRotation*, samples with odd *x+y* area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the chocolate plate, and use the rotation matrix to calculate the coordinates of the samples in the new coordinate system and reclassify them. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis.**
-- Example for the gradual drift:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true"/></div>  
+- Data distribution display:
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_sudden_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(a)Gradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)Sudden</p>
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_recurrent_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px" alt="Gradual"/>
+ 
+<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_abrupt_chocolaterotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
+</div>  
+<p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
 
 ### RollingTorus
 In the dataset *RollingTorus*, we set two torus of the same size close together, and the samples in different torus belong to different classes. We let the third torus roll over at a constant speed, and the samples overlapping the first two tori will become the opposite category. **If you need a dataset with unbalanced number of category samples, you can adjust the initial torus radius to achieve.**
