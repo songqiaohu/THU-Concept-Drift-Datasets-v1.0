@@ -95,7 +95,7 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 ### v1.0(2023/1/2)
 
 ## About us
-- We are from the research group of Prof.Xiao He, Department of Automation, Tsinghua University.
+- We are from the research group of Prof. Xiao He, Department of Automation, Tsinghua University.
 - Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, 1120193091@bit.edu.cn.
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
