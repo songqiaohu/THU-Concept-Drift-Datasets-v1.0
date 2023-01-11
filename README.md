@@ -1,6 +1,6 @@
 # Concept Drift Datasets v1.0
 ## Background
-**Concept drift** describes unforeseeable changes in the underlying distribution of streaming data over time[1]. Concept drift problem exists in many real-world situations, such as sensor drift and the change of operating mode. Detecting concept drift timely and accurately is of great significance for judging system state and providing decision suggestions. In order to better test and evaluate the performance of concept drift detection algorithm, we have made some datasets with known drift types and drift time points, hoping to help the development of concept drift detection.
+**Concept drift** describes unforeseeable changes in the underlying distribution of streaming data over time[1]. Concept drift problem exists in many real-world situations, such as sensor drift and the change of operating mode[2][3]. Detecting concept drift timely and accurately is of great significance for judging system state and providing decision suggestions[4]. In order to better test and evaluate the performance of concept drift detection algorithm, we have made some datasets with known drift types and drift time points, hoping to help the development of concept drift detection.
 ## Usage
 - If you want to use the datasets in the project, you can download them directly and import them using the pandas library.  
 - Example:
@@ -50,7 +50,7 @@ In the dataset *Linear*, the decision boundary is a straight line. We simulate t
 
 
 ### CakeRotation
-In the dataset *CakeRotation*, samples with odd angle area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the disk, and the range of the angle area will change during the rotation. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis.**
+In the dataset *CakeRotation*, samples with odd angle area belong to one class, while samples with even angle area belong to another class. We simulate concept drift by rotating the disk, and the range of the angle area will change during the rotation. **If you need data sets of multiple categories, you can achieve it by using modulus instead of odd and even numbers on this basis[5].**
 - Data distribution display:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_cakerotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 
@@ -78,7 +78,7 @@ In the dataset *ChocolateRotation*, samples with odd *x+y* area belong to one cl
 <p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
 
 ### RollingTorus
-In the dataset *RollingTorus*, we set two torus of the same size close together, and the samples in different torus belong to different classes. We let the third torus roll over at a constant speed, and the samples overlapping the first two tori will become the opposite category. **If you need a dataset with unbalanced number of category samples, you can adjust the initial torus radius to achieve.**
+In the dataset *RollingTorus*, we set two torus of the same size close together, and the samples in different torus belong to different classes. We let the third torus roll over at a constant speed, and the samples overlapping the first two tori will become the opposite category. **If you need a dataset with unbalanced number of category samples, you can adjust the initial torus radius to achieve[6].**
 - Data distribution display:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_gradual_rollingtorus_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 
@@ -99,3 +99,19 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 - Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, 1120193091@bit.edu.cn.
 
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
+[2] Liu Z, Zhang Y, Ding Z, et al. “An Online Active Broad Learning
+Approach for Real-Time Safety Assessment of Dynamic Systems in
+Nonstationary Environments,” IEEE Transactions on Neural Networks
+and Learning Systems, 2022.
+[3] Hoens T R, Polikar R, Chawla N V. “Learning from streaming data
+with concept drift and imbalance: an overview,” Progress in Artificial
+Intelligence, 2012, 1(1): 89-101.
+[4] Liu A, Song Y, Zhang G, et al. “Regional concept drift detection
+and density synchronized drift adaptation,” IJCAI International Joint
+Conference on Artificial Intelligence. 2017.
+[5] Korycki Ł, Krawczyk B. “Concept drift detection from multi-class
+imbalanced data streams,” 2021 IEEE 37th International Conference on
+Data Engineering (ICDE). IEEE, 2021: 1068-1079.
+[6] Wang S, Minku L L, Yao X. “A systematic study of online class
+imbalance learning with concept drift,” IEEE transactions on neural
+networks and learning systems, 2018, 29(10): 4802-4821.
