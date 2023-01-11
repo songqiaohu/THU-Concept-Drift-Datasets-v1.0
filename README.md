@@ -98,20 +98,17 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 - We are from the research group of Prof. Xiao He, Department of Automation, Tsinghua University.
 - Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, 1120193091@bit.edu.cn.
 
-[1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.
-[2] Liu Z, Zhang Y, Ding Z, et al. “An Online Active Broad Learning
-Approach for Real-Time Safety Assessment of Dynamic Systems in
-Nonstationary Environments,” IEEE Transactions on Neural Networks
-and Learning Systems, 2022.
+[1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.  
+[2] Liu Z, Zhang Y, Ding Z, et al. “An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments,” IEEE Transactions on Neural Networks and Learning Systems, 2022.  
 [3] Hoens T R, Polikar R, Chawla N V. “Learning from streaming data
 with concept drift and imbalance: an overview,” Progress in Artificial
-Intelligence, 2012, 1(1): 89-101.
+Intelligence, 2012, 1(1): 89-101.  
 [4] Liu A, Song Y, Zhang G, et al. “Regional concept drift detection
 and density synchronized drift adaptation,” IJCAI International Joint
-Conference on Artificial Intelligence. 2017.
+Conference on Artificial Intelligence. 2017.  
 [5] Korycki Ł, Krawczyk B. “Concept drift detection from multi-class
 imbalanced data streams,” 2021 IEEE 37th International Conference on
-Data Engineering (ICDE). IEEE, 2021: 1068-1079.
+Data Engineering (ICDE). IEEE, 2021: 1068-1079.  
 [6] Wang S, Minku L L, Yao X. “A systematic study of online class
 imbalance learning with concept drift,” IEEE transactions on neural
 networks and learning systems, 2018, 29(10): 4802-4821.
