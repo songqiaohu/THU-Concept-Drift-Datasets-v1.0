@@ -66,14 +66,14 @@ class DataStreamGenerator(object):
             index = np.where((y >= -10) & (y <= 10))
             x = x[index]
             y = y[index]
-            plt.plot(x, y, 'r', label='decision boundary')
+            plt.plot(x, y, 'r', label='drift control line')
 
         if ("gradual" in type or "sudden" in type or "recurrent" in type) and "nonlinear" not in type:
             if len(variables) == 2 and variables[0] == -1:
                 print("plot_decisionboundary")
                 y = np.linspace(-10, 10, 20)
                 x = np.array([variables[1] for i in y])
-                plt.plot(x, y, 'r', label='decision boundary')
+                plt.plot(x, y, 'r', label='drift control line')
             else:
                 equation = equation.replace("=0", "")
                 x = np.linspace(-10, 10, 20)
@@ -82,7 +82,7 @@ class DataStreamGenerator(object):
                 index = np.where((y >= -10) & (y <= 10))
                 x = x[index]
                 y = y[index]
-                plt.plot(x, y, 'r', label='decision boundary')
+                plt.plot(x, y, 'r', label='drift control line')
                 plt.scatter(variables[0], variables[1], c='r', label='spin axis', s=25)
 
         if ("gradual" in type or "sudden" in type or "abrupt" in type or "recurrent" in type) and "nonlinear" in type and "cake" in type:
@@ -94,7 +94,7 @@ class DataStreamGenerator(object):
                 x = r * np.cos(i * np.pi / 180)
                 y = r * np.sin(i * np.pi / 180)
                 if first:
-                    plt.plot(x, y, 'r', label="decision boundary", linewidth=0.8)
+                    plt.plot(x, y, 'r', label="drift control line", linewidth=0.8)
                     first = False
                 else:
                     plt.plot(x, y, 'r', linewidth=0.8)
@@ -117,7 +117,7 @@ class DataStreamGenerator(object):
                 xy = np.row_stack((x, y))
                 xy_rotation = rotate_matrix.dot(xy)
                 if first:
-                    plt.plot(xy_rotation[0, :], xy_rotation[1, :], 'k', label="decision boundary", alpha=0.6)
+                    plt.plot(xy_rotation[0, :], xy_rotation[1, :], 'k', label="drift control line", alpha=0.6)
                     first = False
                 else:
                     plt.plot(xy_rotation[0, :], xy_rotation[1, :], 'k', alpha=0.6)
