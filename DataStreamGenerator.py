@@ -149,7 +149,7 @@ class DataStreamGenerator(object):
             plt.axis('equal')
             plt.plot(x_torus1, y_torus1, 'b', alpha=0.35)
             plt.plot(x_torus2, y_torus2, 'g', alpha=0.35)
-            plt.plot(x_torus_rolling, y_torus_rolling, 'r', label="decision boundary")
+            plt.plot(x_torus_rolling, y_torus_rolling, 'r', label="drift control line")
             plt.grid()
 
 
