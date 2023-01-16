@@ -18,7 +18,7 @@ X = data[:, 0 : 5]
 Y = data[:, 5] 
 ``` 
 
-- Or you can download *DatasetsInput.py*, and then import the class, as shown in *DatasetsInput_main.py*.(Recommended)
+- Or you can download *DatasetsInput.py*, and then import the class, as shown in *DatasetsInput_main.py*.(**Recommended**)
 - Example:
 ```
 from DatasetsInput import Datasets
