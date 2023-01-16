@@ -122,5 +122,5 @@ imbalanced data streams,” 2021 IEEE 37th International Conference on
 Data Engineering (ICDE). IEEE, 2021: 1068-1079.  
 [6] Wang S, Minku L L, Yao X. “A systematic study of online class
 imbalance learning with concept drift,” IEEE transactions on neural
-networks and learning systems, 2018, 29(10): 4802-4821.
+networks and learning systems, 2018, 29(10): 4802-4821.  
 [7]López Lobo, Jesús. "Synthetic datasets for concept drift detection purposes." Harv. Dataverse (2020). https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5OWRGB.
