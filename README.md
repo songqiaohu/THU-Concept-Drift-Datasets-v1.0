@@ -18,6 +18,15 @@ X = data[:, 0 : 5]
 Y = data[:, 5] 
 ``` 
 
+- Or you can download *DatasetsInput.py*, and then import the class, as shown in *DatasetsInput_main.py*.(**Recommended**)
+- Example:
+```
+from DatasetsInput import Datasets
+
+Data = Datasets()
+
+X, Y = Data.CNNS_Nonlinear_Gradual_ChocolateRotation()
+``` 
 - If you want to regenerate the dataset and import it directly, you can download *DataStreamGenerator.py* and put it under the file where your code is located, and then import the class.  
 - Example:
 
@@ -91,6 +100,8 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 </div>  
 <p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
 
+### Harvard Concept Drift Datasets[7]
+Concretely, they have generated 20 diverse synthetic datasets (10 abrupt and 10 gradual) by using several stream generators and functions, and with a different number of features and noise. They exhibit 4 concepts and 3 drifts at time steps 10000, 20000, and 30000 in the case of abrupt datasets, and at time steps 9500, 20000, and 30500 in the case of gradual ones. In the latter case, the width of the drift is 1000. All of them have 40000 instances in total. Next, the details of the datasets: – With Sine generator: it is ruled by a sequence of classification functions. Sine A refers to abrupt cases and Sine G to gradual ones. In the case of Sine F1, the order of the functions is SINE1-reversed SINE1-SINE2-reversed SINE2. For Sine F2 the order is reversed SINE2-SINE2-reversed SINE1-SINE1. There- fore, Sine stream generator provides 4 different datasets: Sine A F1, Sine A F2, Sine G F1, and Sine G F2. They consists of 2 numerical features, a balanced binary class, and without noise. – With Random Tree generator: it is ruled by a sequence of tree random state functions. The parameters max tree depth, min leaf depth, and fraction leaves per level were set to 6, 3, and 0.15 respectively. RT A refers to abrupt cases and RT G to gradual ones. In the case of RT F1, the order of the functions is 8873-9856-7896-2563. For RT F2 the order is reversed 2563-7896-9856-8873. Therefore, Random Tree stream generator provides 4 different datasets: RT A F1, RT A F2, RT G F1, and RT G F2. They consists of 2 numerical features, a balanced binary class, and without noise. – With Mixed generator: it is ruled by a sequence of classification functions. Mixed A refers to abrupt cases and Mixed G to gradual ones. In the case of Mixed F1, the order of the functions is 0-1-0-1. For Mixed F2 the order is reversed 1-0-1-0. Therefore, Mixed stream generator provides 4 different datasets: Mixed A F1, Mixed A F2, Mixed G F1, and Mixed G F2. They consists of 4 numerical features, a balanced binary class, and without noise. – With Sea generator: it is ruled by a sequence of classification functions. Sea A refers to abrupt cases and Sea G to gradual ones. In the case of Sea F1, the order of the functions is 0-1-2-3. For Sea F2 the order is reversed 3-2-1-0. Therefore, Sea stream generator provides 4 different datasets: Sea A F1, Sea A F2, Sea G F1, and Sea G F2. They consists of 3 numerical features, a balanced binary class, and with the probability that noise will happen in the generation of 0.2 (probability range between 0 and 1). – With Stagger generator: it is ruled by a sequence of classification functions. Stagger A refers to abrupt cases and Stagger G to gradual ones. In the case of Stagger F1, the order of the functions is 0-1-2-0. For Stagger F2 the order is reversed 2-1-0-2. Therefore, Stagger stream generator provides 4 different datasets: Stagger A F1, Stagger A F2, Stagger G F1, and Stagger G F2. They consists of 3 numerical features, a balanced binary class, and without noise.
 ## Change Log
 ### v1.0(2023/1/2)
 
@@ -111,4 +122,5 @@ imbalanced data streams,” 2021 IEEE 37th International Conference on
 Data Engineering (ICDE). IEEE, 2021: 1068-1079.  
 [6] Wang S, Minku L L, Yao X. “A systematic study of online class
 imbalance learning with concept drift,” IEEE transactions on neural
-networks and learning systems, 2018, 29(10): 4802-4821.
+networks and learning systems, 2018, 29(10): 4802-4821.  
+[7]López Lobo, Jesús. "Synthetic datasets for concept drift detection purposes." Harv. Dataverse (2020). https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5OWRGB.
