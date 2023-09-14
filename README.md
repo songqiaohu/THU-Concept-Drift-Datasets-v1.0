@@ -107,8 +107,28 @@ Concretely, they have generated 20 diverse synthetic datasets (10 abrupt and 10 
 
 ## About us
 - We are from the research group of Prof. Xiao He, Department of Automation, Tsinghua University.
-- Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, 1120193091@bit.edu.cn.
+- Welcome to discuss and put forward valuable suggestions. Email: liuzy21@mails.tsinghua.edu.cn, hsq23@mails.tsinghua.edu.cn.
 
+## Citation
+If you find these datasets useful, please cite the original paper:
+```
+@article{liu2023real,
+  title={Real-time Safety Assessment of Dynamic Systems in Non-stationary Environments: A Review of Methods and Techniques},
+  author={Liu, Zeyi and Hu, Songqiao and He, Xiao},
+  journal={arXiv preprint arXiv:2304.12583},
+  year={2023}
+}  
+@inproceedings{hu2022cadm,
+  title={CADM: Confusion model-based detection method for real-drift in chunk data stream},
+  author={Hu, Songqiao and Liu, Zeyi and He, Xiao},
+  booktitle={International Conference on Sensor Systems and Software},
+  pages={191--201},
+  year={2022},
+  organization={Springer}
+}
+``` 
+
+## References
 [1]Lu J, Liu A, Dong F, et al. Learning under concept drift: A review[J]. IEEE Transactions on Knowledge and Data Engineering, 2018, 31(12): 2346-2363.  
 [2] Liu Z, Zhang Y, Ding Z, et al. “An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments,” IEEE Transactions on Neural Networks and Learning Systems, 2022.  
 [3] Hoens T R, Polikar R, Chawla N V. “Learning from streaming data
