@@ -130,14 +130,6 @@ If you find these datasets useful, please cite the original paper:
   journal={arXiv preprint arXiv:2304.12583},
   year={2023}
 }  
-@inproceedings{hu2022cadm,
-  title={CADM: Confusion model-based detection method for real-drift in chunk data stream},
-  author={Hu, Songqiao and Liu, Zeyi and He, Xiao},
-  booktitle={International Conference on Sensor Systems and Software},
-  pages={191--201},
-  year={2022},
-  organization={Springer}
-}
 ``` 
 
 ## References
