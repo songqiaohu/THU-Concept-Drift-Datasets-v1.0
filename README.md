@@ -124,12 +124,15 @@ They exhibit 4 concepts and 3 drifts at time steps 10000, 20000, and 30000 in th
 ## Citation
 If you find these datasets useful, please cite the original paper:
 ```
-@article{liu2023real,
-  title={Real-time Safety Assessment of Dynamic Systems in Non-stationary Environments: A Review of Methods and Techniques},
+@INPROCEEDINGS{10295743,
   author={Liu, Zeyi and Hu, Songqiao and He, Xiao},
-  journal={arXiv preprint arXiv:2304.12583},
-  year={2023}
-}  
+  booktitle={2023 CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)}, 
+  title={Real-time Safety Assessment of Dynamic Systems in Non-stationary Environments: A Review of Methods and Techniques}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/SAFEPROCESS58597.2023.10295743}}
 ``` 
 
 ## References
