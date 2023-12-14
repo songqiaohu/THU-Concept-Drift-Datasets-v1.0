@@ -4,9 +4,9 @@
 ## Simulated Datasets
 - Data distribution display:
 <div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="280px" height="210px" alt="LAbrupt"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="280px" height="210px" alt="LSudden"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="280px" height="210px" alt="LGradual"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="200px" height="150px" alt="LAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="200px" height="150px" alt="LSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="200px" height="150px" alt="LGradual"/>
 </div>
 
 <p align="center">(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
