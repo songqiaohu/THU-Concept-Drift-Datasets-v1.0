@@ -1,5 +1,5 @@
 # Datasets used in CADM+ 
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+.png?raw=true.png"/></div>  
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+2.png?raw=true"/></div>  
 
 ## Simulated Datasets
 - Data distribution display:
