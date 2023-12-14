@@ -110,12 +110,12 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 
 <img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_sudden_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 </div>  
-<p align="center">(a)Gradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)Sudden</p>
+<p align="center">(a)LAbrupt&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)LSudden</p>
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_recurrent_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px" alt="Gradual"/>
  
 <img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 </div>  
-<p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
+<p align="center">(c)LGradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)NLAbrupt</p>
 
 ### Benchmark Datasets
 - HYP_05 (from scikit-multiflow):
