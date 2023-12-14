@@ -136,7 +136,7 @@ WriteStreamToARFFFile -s (ConceptDriftStream -s generators.SEAGenerator -d (Conc
 ``` 
 
 
-### Harvard Concept Drift Datasets[7]
+## Harvard Concept Drift Datasets[7]
 Concretely, they have generated 20 diverse synthetic datasets (10 abrupt and 10 gradual) by using several stream generators and functions, and with a different number of features and noise.  
 
 They exhibit 4 concepts and 3 drifts at time steps 10000, 20000, and 30000 in the case of abrupt datasets, and at time steps 9500, 20000, and 30500 in the case of gradual ones. In the latter case, the width of the drift is 1000. All of them have 40000 instances in total. Next, the details of the datasets:  
