@@ -20,7 +20,7 @@
 <p align="center">&#8195;&#8195;(a) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) NLGradual</p>
 
 <div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="400px" height="320px" alt="LSudden_3"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="240px" height="240px" alt="LSudden_3"/>
 </div>
 
 <p align="center">(g) LSudden_3</p>
