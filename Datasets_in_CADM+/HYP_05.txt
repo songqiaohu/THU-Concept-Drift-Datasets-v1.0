@@ -1,0 +1,13 @@
+#requirements
+-- scikit-multiflow 0.5.3
+-- numpy 1.21.6
+
+#Generate the dataset 
+import csv
+from skmultiflow.data import HyperplaneGenerator
+import numpy as np
+stream = HyperplaneGenerator(mag_change=0.5)
+X, y = stream.next_sample(1000000)
+with open('HYP_05.csv', 'w', newline='') as fp:
+    writer = csv.writer(fp)
+    writer.writerows(np.column_stack((X, y)))
