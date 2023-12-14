@@ -1,3 +1,53 @@
+# Datasets used in CADM+ 
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+.png?raw=true.png"/></div>  
+
+## Simulated Datasets
+- Data distribution display:
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="320px" height="240px" alt="LAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="320px" height="240px" alt="LSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="320px" height="240px" alt="LGradual"/>
+</div>
+
+<p align="center">(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
+
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="320px" height="240px" alt="NLAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLSudden.gif?raw=true" width="320px" height="240px" alt="NLSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLGradual.gif?raw=true" width="320px" height="240px" alt="NLGradual"/>
+</div>
+
+<p align="center">(d) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (e) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (f) NLGradual</p>
+
+<div align="center">
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="320px" height="240px" alt="LSudden_3"/>
+</div>
+
+<p align="center">(g) LSudden_3 
+
+
+## Benchmark Datasets
+- HYP_05 (from scikit-multiflow):
+```
+import csv
+from skmultiflow.data import HyperplaneGenerator
+import numpy as np
+stream = HyperplaneGenerator(mag_change=0.5)
+X, y = stream.next_sample(1000000)
+with open('HYP_05.csv', 'w', newline='') as fp:
+    writer = csv.writer(fp)
+    writer.writerows(np.column_stack((X, y)))
+```
+- SEA_a (from MOA):
+```
+WriteStreamToARFFFile -s (ConceptDriftStream -s generators.SEAGenerator -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d (ConceptDriftStream -s generators.SEAGenerator -d (generators.SEAGenerator -f 4) -p 250000 -w 50) -p 250000 -w 50) -p 250000 -w 50) -f (SEA_a.arff) -m 1000000
+``` 
+## Real-world Dataset (Jiaolong)
+Please refer to
+```
+https://github.com/THUFDD/JiaolongDSMS_datasets
+```
+
 # Concept Drift Datasets v1.0
 ## Background
 **Concept drift** describes unforeseeable changes in the underlying distribution of streaming data over time[1]. Concept drift problem exists in many real-world situations, such as sensor drift and the change of operating mode[2][3]. Detecting concept drift timely and accurately is of great significance for judging system state and providing decision suggestions[4]. In order to better test and evaluate the performance of concept drift detection algorithm, we have made some datasets with known drift types and drift time points, hoping to help the development of concept drift detection.
@@ -99,45 +149,6 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 <img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_nonlinear_abrupt_rollingtorus_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 </div>  
 <p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
-
-
-## Datasets used in CADM+ 
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+.png?raw=true.png"/></div>  
-
-### Simulated Datasets
-- Data distribution display:
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
-
-<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_sudden_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
-</div>  
-<p align="center">(a)LAbrupt&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(b)LSudden</p>
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_recurrent_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px" alt="Gradual"/>
- 
-<img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
-</div>  
-<p align="center">(c)LGradual&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)NLAbrupt</p>
-
-### Benchmark Datasets
-- HYP_05 (from scikit-multiflow):
-```
-import csv
-from skmultiflow.data import HyperplaneGenerator
-import numpy as np
-stream = HyperplaneGenerator(mag_change=0.5)
-X, y = stream.next_sample(1000000)
-with open('HYP_05.csv', 'w', newline='') as fp:
-    writer = csv.writer(fp)
-    writer.writerows(np.column_stack((X, y)))
-```
-- SEA_a (from MOA):
-```
-WriteStreamToARFFFile -s (ConceptDriftStream -s generators.SEAGenerator -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d (ConceptDriftStream -s generators.SEAGenerator -d (generators.SEAGenerator -f 4) -p 250000 -w 50) -p 250000 -w 50) -p 250000 -w 50) -f (SEA_a.arff) -m 1000000
-``` 
-### Real-world Dataset (Jiaolong)
-Please refer to
-```
-https://github.com/THUFDD/JiaolongDSMS_datasets
-```
 
 ## Harvard Concept Drift Datasets[7]
 Concretely, they have generated 20 diverse synthetic datasets (10 abrupt and 10 gradual) by using several stream generators and functions, and with a different number of features and noise.  
