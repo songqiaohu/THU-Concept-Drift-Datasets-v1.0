@@ -17,7 +17,7 @@
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLGradual.gif?raw=true" width="240px" height="180px" alt="NLGradual"/>
 </div>
 
-<p align="center">&#8195;(a) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) NLGradual</p>
+<p align="center">&#8195;&#8195;(a) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) NLGradual</p>
 
 <div align="center">
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="280px" height="210px" alt="LSudden_3"/>
