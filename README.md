@@ -102,9 +102,9 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 
 
 ## Datasets used in CADM+ 
-<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/QQ%E5%9B%BE%E7%89%8720230105200626.png"/></div>  
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+.png?raw=true.png"/></div>  
 
-### Linear
+### Simulated Datasets
 In the dataset *Linear*, the decision boundary is a straight line. We simulate the change of the decision boundary through the rotation of the straight line. Users can freely select the rotation axis within the range of [-10, 10]×[-10, 10].
 - Data distribution display:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
@@ -117,6 +117,24 @@ In the dataset *Linear*, the decision boundary is a straight line. We simulate t
 <img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_abrupt_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 </div>  
 <p align="center">(c)Recurrent&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(d)Abrupt</p>
+
+### Benchmark Datasets
+- HYP_05 (from scikit-multiflow):
+```
+import csv
+from skmultiflow.data import HyperplaneGenerator
+import numpy as np
+stream = HyperplaneGenerator(mag_change=0.5)
+X, y = stream.next_sample(1000000)
+with open('HYP_05.csv', 'w', newline='') as fp:
+    writer = csv.writer(fp)
+    writer.writerows(np.column_stack((X, y)))
+```
+- SEA_a (from MOA):
+```
+WriteStreamToARFFFile -s (ConceptDriftStream -s generators.SEAGenerator -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d (ConceptDriftStream -s generators.SEAGenerator -d (generators.SEAGenerator -f 4) -p 250000 -w 50) -p 250000 -w 50) -p 250000 -w 50) -f (SEA_a.arff) -m 1000000
+``` 
+
 
 ### Harvard Concept Drift Datasets[7]
 Concretely, they have generated 20 diverse synthetic datasets (10 abrupt and 10 gradual) by using several stream generators and functions, and with a different number of features and noise.  
