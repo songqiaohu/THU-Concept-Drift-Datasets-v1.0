@@ -105,7 +105,6 @@ In the dataset *RollingTorus*, we set two torus of the same size close together,
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/datasets_CADM+.png?raw=true.png"/></div>  
 
 ### Simulated Datasets
-In the dataset *Linear*, the decision boundary is a straight line. We simulate the change of the decision boundary through the rotation of the straight line. Users can freely select the rotation axis within the range of [-10, 10]×[-10, 10].
 - Data distribution display:
 <div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/figure_linear_gradual_rotation_noise_and_redunce.gif?raw=true" width="320px" hegiht="240px"/>
 
