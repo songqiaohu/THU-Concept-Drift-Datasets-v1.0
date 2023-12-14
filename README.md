@@ -9,7 +9,7 @@
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="240px" height="180px" alt="LGradual"/>
 </div>
 
-<p align="center">&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
+<p align="center">&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
 
 <div align="center">
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="280px" height="210px" alt="NLAbrupt"/>
