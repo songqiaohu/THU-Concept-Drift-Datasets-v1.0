@@ -4,26 +4,27 @@
 ## Simulated Datasets
 - Data distribution display:
 <div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="320px" height="240px" alt="LAbrupt"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="320px" height="240px" alt="LSudden"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="320px" height="240px" alt="LGradual"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="280px" height="210px" alt="LAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="280px" height="210px" alt="LSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="280px" height="210px" alt="LGradual"/>
 </div>
 
 <p align="center">(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
 
 <div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="320px" height="240px" alt="NLAbrupt"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLSudden.gif?raw=true" width="320px" height="240px" alt="NLSudden"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLGradual.gif?raw=true" width="320px" height="240px" alt="NLGradual"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="280px" height="210px" alt="NLAbrupt"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLSudden.gif?raw=true" width="280px" height="210px" alt="NLSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLGradual.gif?raw=true" width="280px" height="210px" alt="NLGradual"/>
 </div>
 
 <p align="center">(d) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (e) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (f) NLGradual</p>
 
 <div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="320px" height="240px" alt="LSudden_3"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="280px" height="210px" alt="LSudden_3"/>
 </div>
 
-<p align="center">(g) LSudden_3 
+<p align="center">(g) LSudden_3</p>
+
 
 
 ## Benchmark Datasets
