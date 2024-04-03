@@ -175,6 +175,14 @@ They exhibit 4 concepts and 3 drifts at time steps 10000, 20000, and 30000 in th
 ## Citation
 If you find these datasets useful, please cite the original paper:
 ```
+@article{hu2024cadm,
+  title={CADM $+ $: Confusion-Based Learning Framework With Drift Detection and Adaptation for Real-Time Safety Assessment},
+  author={Hu, Songqiao and Liu, Zeyi and Li, Minyue and He, Xiao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024},
+  publisher={IEEE}
+}
+
 @INPROCEEDINGS{10295743,
   author={Liu, Zeyi and Hu, Songqiao and He, Xiao},
   booktitle={2023 CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)}, 
