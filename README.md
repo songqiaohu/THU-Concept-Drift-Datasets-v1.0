@@ -5,11 +5,12 @@
 - Data distribution display:
 <div align="center">
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LAbrupt.gif?raw=true" width="240px" height="180px" alt="LAbrupt"/>
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden.gif?raw=true" width="240px" height="180px" alt="LSudden"/>
+  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="240" height="180" alt="LSudden_3"/>
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LGradual.gif?raw=true" width="240px" height="180px" alt="LGradual"/>
 </div>
 
-<p align="center">&#8195;(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
+<p align="center">&#8195;(a) LAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) LSudden_3
+  &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) LGradual</p>
 
 <div align="center">
   <img src="https://github.com/songqiaohu/pictureandgif/blob/main/NLAbrupt.gif?raw=true" width="240px" height="180px" alt="NLAbrupt"/>
@@ -18,12 +19,6 @@
 </div>
 
 <p align="center">&#8195;&#8195;(a) NLAbrupt &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (b) NLSudden &#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195; (c) NLGradual</p>
-
-<div align="center">
-  <img src="https://github.com/songqiaohu/pictureandgif/blob/main/LSudden_3.gif?raw=true" width="320px" height="240px" alt="LSudden_3"/>
-</div>
-
-<p align="center">(g) LSudden_3</p>
 
 
 
